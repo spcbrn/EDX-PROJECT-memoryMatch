@@ -1,0 +1,26 @@
+body {
+    background: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: lightgray;
+}
+
+table {
+    margin-top: 240px;
+    margin-bottom: 32px;
+    background: lightgray;
+}
+
+table, td {
+    border: 5px solid black;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: blue;
+    margin: 1px 1px;
+}
